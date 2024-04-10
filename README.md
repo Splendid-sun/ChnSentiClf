@@ -7,6 +7,7 @@
 实验2:用deberta_v3_large又跑了一遍，效果不佳。
 
 实验3:用Prompt-tuning方法，效果相对方法1大幅提升。达到了0.95的micro f1 score
+
 项目架构：PyTorch+HuggingFace+BERT
 
 Huggingface 工具集快速使用入门 以及 中文任务示例

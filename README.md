@@ -12,7 +12,7 @@
 
 （2）只微调最后分类层，和微调backbone全部参数结果没有区别，说明谷歌的bert-base-chinese的预训练质量非常高，抽取中文文本特征效果非常好，无需微调。
 
-（3）Prompt-Tuning相对于Fine-Tuning，更能对齐下游任务与预训练任务的目标，能够自动学习prompt pattern，能够显著提升模型的预测精度，0.88->0.95。
+（3）Prompt-Tuning相对于Fine-Tuning，更能对齐下游任务与预训练任务的目标，能够自动学习prompt pattern，能够显著提升模型的预测精度，0.88 -> 0.95。
 
 项目架构：PyTorch+HuggingFace+BERT
 

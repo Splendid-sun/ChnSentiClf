@@ -1,8 +1,10 @@
-项目：ChnSentiCorp中文情感分类
+# 项目：ChnSentiCorp中文情感分类
 
-项目背景：互联网有大量的消费者评价的文本数据，ChnSentiCorp数据集收集了上万条中文购物评价数据，包括酒店的居住体验，电脑、手机等电子产品购买后使用评价，书籍的阅读感受。对这些文本进行情感分类能够追踪用户体验，及时了解产品市场反馈。
+## 项目背景：
+互联网有大量的消费者评价的文本数据，ChnSentiCorp数据集收集了上万条中文购物评价数据，包括酒店的居住体验，电脑、手机等电子产品购买后使用评价，书籍的阅读感受。对这些文本进行情感分类能够追踪用户体验，及时了解产品市场反馈。
 
-项目内容：把评价文本数据通过bert-base-chinese和deberta v3 large模型作为backbone进行特征抽取，分别尝试（1）直接把<CLS> token接入下游的神经网络分类层（2）采用Prompt-Tuning方法，把<MASK> token接入下游的神经网络分类层。
+## 项目内容：
+把评价文本数据通过bert-base-chinese和deberta v3 large模型作为backbone进行特征抽取，分别尝试（1）直接把<CLS> token接入下游的神经网络分类层（2）采用Prompt-Tuning方法，把<MASK> token接入下游的神经网络分类层。
 
 文本分类效果：使用google-bert/bert-base-chinese模型取得(1) 0.89和(2) 0.96的F1 score。
 
